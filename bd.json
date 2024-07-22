@@ -2,79 +2,75 @@
     "clientes": [
       {
         "id": 1,
-        "nome": "João da Silva",
+        "nome": "João Marcos",
         "telefone": "123456789",
-        "endereco": "Rua dos Animais, 123"
+        "endereco": "Rua dos Martelos, 123"
       },
       {
         "id": 2,
-        "nome": "Maria Souza",
+        "nome": "Gabriela Correia",
         "telefone": "987654321",
-        "endereco": "Avenida dos Pets, 456"
+        "endereco": "Avenida das Colheitas, 456"
       }
     ],
-    "animais": [
+    "jogos": [
       {
         "id": 1,
-        "nome": "Rex",
-        "especie": "Cachorro",
-        "raca": "Labrador",
-        "idade": 3,
+        "nome": "DCM",
+        "plataforma": "Multiplataforma",
+        "genero": "Ação",
+        "Ano": 2005,
         "cliente_id": 1
       },
       {
         "id": 2,
-        "nome": "Mimi",
-        "especie": "Gato",
-        "raca": "Siamês",
-        "idade": 2,
+        "nome": "Castelo Vamp",
+        "plataforma": "Playstation",
+        "genero": "Aventura",
+        "Ano": 1999,
         "cliente_id": 1
       },
       {
         "id": 3,
-        "nome": "Lola",
-        "especie": "Cachorro",
-        "raca": "Poodle",
-        "idade": 5,
+        "nome": "Colossos",
+        "plataforma": "Playstation",
+        "genero": "Aventura",
+        "Ano": 2004,
         "cliente_id": 2
       },
       {
         "id": 4,
-        "nome": "Nina",
-        "especie": "Gato",
-        "raca": "Persa",
-        "idade": 1,
+        "nome": "Mine",
+        "plataforma": "PC",
+        "genero": "Sandbox",
+        "Ano": 2012,
         "cliente_id": 2
       }
     ],
-    "produtos": [
+    "adicional": [
       {
         "id": 1,
-        "nome": "Ração para cães",
-        "marca": "Premier",
-        "preco": 50.99,
-        "quantidade_estoque": 100
+        "nome": "Definitive Edition",
+        "tipo": "dlc",
+        "preco": 39.99
       },
       {
         "id": 2,
-        "nome": "Areia sanitária para gatos",
-        "marca": "Chalesco",
-        "preco": 25.99,
-        "quantidade_estoque": 50
+        "nome": "RLCraft",
+        "tipo": "mod",
+        "preco": 4.99
       }
     ],
     "servicos": [
       {
         "id": 1,
-        "nome": "Banho e tosa",
-        "preco": 80.0,
-        "duracao_minutos": 120
+        "nome": "Mídia Física",
+        "preco": 149.99
       },
       {
         "id": 2,
-        "nome": "Consulta veterinária",
-        "preco": 120.0,
-        "duracao_minutos": 60
+        "nome": "Mídia Dígital",
+        "preco": 99.90
       }
     ]
   }
